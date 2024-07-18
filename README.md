@@ -28,8 +28,6 @@ To set up this project locally, follow these steps:
 
 1. Clone the repository:
    git clone git@github.com:luanmagalhaes/Value-First-project.git
-2. Navigate to the project directory:
-   cd value-first-project-2024
 
 ##Usage
 
