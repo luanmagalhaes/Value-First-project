@@ -2,13 +2,19 @@ const mobileMenu = document.getElementById('mobile-menu');
 const mobileMenuClose = document.getElementById('mobile-menu-close');
 const mobileNav = document.getElementById('mobile-nav');
 
-mobileMenu.addEventListener('click', () => {
+function toggleMenu() {
   mobileNav.classList.toggle('open');
-});
+}
 
-mobileMenuClose.addEventListener('click', () => {
+function closeMenu() {
   mobileNav.classList.remove('open');
-});
+}
+
+mobileMenu.addEventListener('click', toggleMenu);
+mobileMenu.addEventListener('touchstart', toggleMenu);
+
+mobileMenuClose.addEventListener('click', closeMenu);
+mobileMenuClose.addEventListener('touchstart', closeMenu);
 
 const paragraph = document.querySelector('.right-content p');
 
