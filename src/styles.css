@@ -459,9 +459,6 @@ section {
     letter-spacing: 0.6px;
   }
 
-  .mobile-nav-list {
-  }
-
   .mobile-nav .menu-close {
     display: flex;
     flex-direction: column;
